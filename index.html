@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petshop </title>
+    <!--code for font awesome cdn-->
+
+    <link rel="icon" type="image/icon" href="image/icon.jpg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--code for font awesome cdn-->
+    <!--code for linking css file-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--code for linking css file-->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <!--header section-->
+    <header class="header">
+        <a href="#" class="logo">
+            <i class="fa fa-shopping-basket"></i> Petshop
+        </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-btn"></div>
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-shopping-cart" id="cart-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="search here.....">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+
+
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/img1.png">
+                <div class="content">
+                    <h3>Petigory</h3>
+                    <span class="price">&#x20B9; 300</span>
+                    <span class="quantity">QTY : 1kg</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="https://petshopindia.com/image/cache/catalog/NESTOR/253-FUNNY-FOOD-RABBIT/1587894762-400x400.jpg">
+                <div class="content">
+                    <h3>Rabbit Food</h3>
+                    <span class="price">&#x20B9; 200</span>
+                    <span class="quantity">QTY : 1pack</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/eggs.jpg">
+                <div class="content">
+                    <h3>eggs</h3>
+                    <span class="price">&#x20B9; 20</span>
+                    <span class="quantity">QTY : 6</span>
+                </div>
+            </div>
+
+            <div class="total">total : &#x20B9; 520</div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+
+        <form action="#" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="Enter email" class="box">
+            <input type="password" placeholder="Enter password" class="box">
+            <p>Forgot your password <a href="#">click here</a></p>
+            <p>Don't have an account <a href="#">Create Now</a></p>
+            <input type="submit" value="Login Now" class="btn">
+        </form>
+    </header>
+    <!--header section-->
+
+
+    <!--banner section-->
+    <section class="home" id="home">
+        <div class="content">
+            <!-- <h3>Fresh And <span>Organic</span> Products For You</h3> -->
+            <h3>Welcome to the Petshop website</h3>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptatibus mollitia dolores, ipsa
+                fugiat iste quod modi quas corporis soluta!</p> -->
+            <a href="#features" class="btn">shop now</a>
+           
+        </div>
+
+    </section>
+    <!--banner section -->
+
+
+
+    <!--features section-->
+    <section class="features" id="features">
+        <h1 class="heading"> our <span>features</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="https://petshopindia.com/image/cache/catalog/Padigree%20food/PSIWSDN843-268x372.jpg">
+                <h2>PEDIGREE ADULT DOG FOOD CHICKEN AND VEGETABLES-10KG</h2>
+                <p>PEDIGREE daily food for adult dogs- Meat and Rice contains special blend of fatty acids for healthy skin and coat.The optimal ca:P ratio and levels are for the strong teeth and bones...</p>
+                <span><b> &#x20B9; 234
+                </b></span>
+                <!-- <div class="offer"><b>50% off</b></div> -->
+                <!-- <a href="#" class="btn">read more</a> -->
+            </div>
+
+            <div class="box">
+                <img src="https://petshopindia.com/image/cache/catalog/Fekrix/PSIWSDN12105-400x400.jpg">
+                <h2>FEKRIX 2 THICK PLAIN NYLON DOG COLLAR PLUG 18 INCH</h2>
+                <p>Fekrix collar is made with premium nylon material that could be a rough and hard material. At an equivalent time, the fabric is straightforward to scrub and maintain...</p>
+                <span><b> &#x20B9; 200
+                </b></span>
+                <!-- <a href="#" class="btn">read more</a> -->
+            </div>
+
+            <div class="box">
+                <img src="https://petshopindia.com/image/cache/catalog/SKY%20EC/Tick%20Free%20shampoo%20500%20ml-400x400.jpg">
+                <h2>SKY EC TICKFREE PET SHAMPOO 500 ML</h2>
+                <p>Wash the body of pet with water. Use TickFree Shampoo liberally on the hair coat of the pet to produce lather....</p>
+                <span><b> &#x20B9; 400
+                </b></span>
+                <!-- <a href="#" class="btn">read more</a> -->
+            </div>
+        </div>
+
+    </section>
+    <!--features section-->
+
+
+
+    <!--product section-->
+    <section class="products" id="products">
+        <h1 class="heading"> our <span>products</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="https://petshopindia.com/image/cache/catalog/Fekrix/fekrix-pet-food/fekrix-cat-adult-mackerel-7kg-400x400.jpg">
+                    <h2>FEKRIX ADULT CAT FOOD WITH REAL MACKEREL 7 KG</h2>
+                    <div class="price">&#x20B9;200 - 300</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://petshopindia.com/image/cache/data/ALL4PETS/All4pets%20chunks%20With%20Chicken%20Can%20Food%20400%20Gms-400x400.jpg">
+                    <h2>ALL4PETS CHUNKS WITH CHICKEN CAN FOOD 400 GMS</h2>
+                    <div class="price"> &#x20B9;200 - 300</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://petshopindia.com/image/cache/catalog/ALL4PET/RABBIT-FOOD-400x400.jpg">
+                    <h2>MANITOBA CONIGLIETTO MIXTURE OF RABBIT FOOD 1KG</h2>
+                    <div class="price"> &#x20B9;446</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://petshopindia.com/image/cache/catalog/BIO-GROOM/wsdn11090-400x400.jpg">
+                    <h2>BIO-GROOM FANCY FERRET SMALL ANIMALS SHAMPOO 235 ML</h2>
+                    <div class="price"> &#x20B9;1000</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://petshopindia.com/image/cache/data/SMARTHEART/smartheart-parrot-and-conures-bird-food-400-gm-400x400.jpg">
+                    <h2>SMARTHEART PARROT AND CONURES BIRD FOOD-400 GM</h2>
+                    <div class="price">&#x20B9;165</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://petshopindia.com/image/cache/data/SMARTHEART/Smartheart%20Bird%20Food%20Hamster%20300%20Gm-400x400.jpg">
+                    <h2>SMARTHEART HAMSTER FOOD (300GM)</h2>
+                    <div class="price"> &#x20B9;150</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--product section-->
+
+
+
+    <!--categories section-->
+
+    <section class="categories" id="categories">
+        <h1 class="heading"> product <span>categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://petshopindia.com/image/cache/catalog/banner/dog2-940x260.jpg">
+                <h3>Dogs Products</h3>
+                <p>Upto 50% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="https://petshopindia.com/image/cache/catalog/bird1-940x260.jpg">
+                <h3>Birds Products</h3>
+                <p>Upto 30% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="https://petshopindia.com/image/cache/catalog/banner/smallpets%20food-940x260.jpg">
+                <h3>Small Pets products</h3>
+                <p>Upto 39% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="https://petshopindia.com/image/cache/catalog/banner/fish%20food%20banner-940x260.jpg">
+                <h3>Fish Products</h3>
+                <p>Upto 29% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="https://petshopindia.com/image/cache/catalog/ARDEN%20GRANGE/KIT5022-400x400.jpg">
+                <h3>Cats Products</h3>
+                <p>Upto 19% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="https://petshopindia.com/image/cache/catalog/Fekrix/8906080930980-400x400.jpg">
+                <h3>Specials</h3>
+                <p>Upto 37% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--categories section-->
+
+
+
+    <!--Review section-->
+
+    <section class="review" id="review">
+        <h1 class="heading"> customer's <span>review</span></h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/pic-1.png">
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> -->
+                    <h3>Shyam Kumar</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">read more</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-2.png">
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> -->
+                    <h3>Shradha Mishra</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">read more</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-3.png">
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> -->
+                    <h3>Mohit Kumar</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">read more</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-4.png">
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> -->
+                    <h3>Deepika Agarwal</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">read more</a>
+                </div>
+                
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--Review section-->
+    <!--Our blogs-->
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> Our <span>blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://petshopindia.com/image/cache/catalog/NESTOR/253-FUNNY-FOOD-RABBIT/1587894762-400x400.jpg">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-users"></i> By customers</a>
+                        <a href="#"><i class="fa fa-calendar"></i> By customers</a>
+                    </div>
+                    <h3>Rabbit foods</h3>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, delectus?</p> -->
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://petshopindia.com/image/cache/data/ALL4PETS/All4pets%20Crate-5%20Carrier%20For%20Dog%20And%20Cat-400x400.jpg">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-users"></i> By customers</a>
+                        <a href="#"><i class="fa fa-calendar"></i> By customers</a>
+                    </div>
+                    <h3>ALL4PETS CRATE-5 CARRIER FOR DOG AND CAT</h3>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, delectus?</p> -->
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://petshopindia.com/image/cache/data/ALL4PETS/All4pets%20Crate-5%20Carrier%20For%20Dog%20And%20Cat-400x400.jpg">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-users"></i> By customers</a>
+                        <a href="#"><i class="fa fa-calendar"></i> By customers</a>
+                    </div>
+                    <h3>ALL4PETS BIRD CAGE WIRE PAN GREEN BLUE PURPLE</h3>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, delectus?</p> -->
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!--Our blogs-->
+
+    <!--footer section-->
+    <section class="footer">
+        <div class="box-container">
+            <!-- <div class="box">
+                <h3>Groco <i class="fa fa-shopping-basket"></i></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, debitis?</p>
+                <div class="share">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-whatsapp"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+            </div> -->
+
+            <div class="box">
+                <h3>Contact info</h3>
+                <a href="links"><i class="fa fa-phone"></i> +91 9807124551</a>
+                <a href="links"><i class="fa fa-envelope"></i> jayald97@gmail.com</a>
+                <a href="links"><i class="fa fa-map-marker"></i> Prayagraj, India</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#home"><i class="fa fa-arrow-right"></i>home</a>
+                <a href="#features"><i class="fa fa-arrow-right"></i>features</a>
+                <a href="#products"><i class="fa fa-arrow-right"></i>products</a>
+                <a href="#categories"><i class="fa fa-arrow-right"></i>categories</a>
+                <a href="#review"><i class="fa fa-arrow-right"></i>review</a>
+                <a href="#blogs"><i class="fa fa-arrow-right"></i>blogs</a>
+                
+            </div>
+
+            <!-- <div class="box">
+                <h3> Newsletter</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="image/payment.png" class="payment-img">
+            </div> -->
+
+        </div>
+
+        <!-- <div class="credit">Created
+            by <span>Jay Singh Yadav</span> | All rights reserved
+        </div> -->
+
+
+
+    </section>
+
+    <!--footer section-->
+
+    <!--code for linking js file-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+    <!--code for linking js file-->
+</body>
+
+</html>
